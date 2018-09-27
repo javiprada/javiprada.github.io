@@ -20,7 +20,7 @@
   }
 
   .subir {
-    display: none;
+    display: inline-block;
     padding: 20px;
     background:#FE2E2E;
     font-size: 20px;

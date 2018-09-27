@@ -5,13 +5,4 @@ $(document).ready(function(){
             scrollTop: '0px'
         }, 250);
     });
-
-    $(window).scroll(function(){
-        if( $(this).scrollTop() > 0 ){
-            $('.subir').slideDown(250);
-        } else {
-            $('.subir').slideUp(250);
-        }
-    });
-
 });
