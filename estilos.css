@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+  img.img1 {
+    max-height: 1200px;
+  }
+  img.img2 {
+    max-width: 400px;
+  }
+  div.nombre {
+    max-lines: 1;
+    inline-size: 20px;
+  }
+  .texto {
+    max-width: 500px;
+    margin:20px auto;
+    text-align: justify;
+  }
+
+  .subir {
+    display: none;
+    padding: 20px;
+    background:#FE2E2E;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+  }
+  
