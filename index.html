@@ -15,7 +15,7 @@
       <script src="arriba.js"></script>
     </head>
 
-    <body>  
+    <body id="home" class="scrollspy">  
     
 
     <!--NavBar-->
@@ -29,7 +29,7 @@
                     </a>
                     <ul class="right hide-on-med-and-down">
                         <li>
-                          <a href="#buscar">Buscar</a>
+                            
                         </li>
                     </ul>
                 </div>
@@ -37,6 +37,9 @@
         </nav>
     </div>
     <ul class="sidenav" id="mobile-nav">
+        <li>
+            <a href="#buscar">Buscar</a>
+          </li>
     </ul>
    
     <!--Fondo-->
@@ -50,13 +53,12 @@
             <img src="https://raw.githubusercontent.com/javiprada/javiprada.github.io/master/img/Imagen.jpeg" class="img2">
            <h2>JAVIER PRADA DE FRANCISCO</h2>
            <div class="texto">
-             <h5 class="light grey-text text-lighten-3 center-align">Estoy estudiando ingenieria de computadores en la UPM. Me gustan los videojuegos las series, peliculas y el anime.
-              Me encantaria aprender a crear videojuegos Estoy estudiando ingenieria de computadores en la UPM. Me gustan los videojuegos las series, peliculas y el anime.
-              Me encantaria aprender a crear videojuegos Estoy estudiando ingenieria de computadores en la UPM. Me gustan los videojuegos las series, peliculas y el anime.
-              Me encantaria aprender a crear videojuegos Estoy estudiando ingenieria de computadores en la UPM. Me gustan los videojuegos las series, peliculas y el anime.
-              Me encantaria aprender a crear videojuegos Estoy estudiando ingenieria de computadores en la UPM. Me gustan los videojuegos las series, peliculas y el anime.
-              Me encantaria aprender a crear videojuegos</h5>
-            </div>
+                <h5 class="light grey-text text-lighten-3 left-align">Estoy estudiando ingenieria de computadores en la UPM. Me gustan los videojuegos las series, peliculas y el anime.
+                    Me encantaria aprender a crear videojuegos </h5></div>
+              <div class="texto">
+                <h5 class="light grey-text text-lighten-3 left-align">Estoy estudiando ingenieria de computadores en la UPM. Me gustan los videojuegos las series, peliculas y el anime.
+                  Me encantaria aprender a crear videojuegos</h5></div>
+
         </div>
       </li>
      </ul>
@@ -86,7 +88,7 @@
        </div>
           </div>
   </section>  
- 
+
    
         
         
@@ -101,11 +103,28 @@
         const slider = document.querySelector('.slider');
         M.Slider .init(slider,{
         indicators: false,
-        height: 1200,
+        height: 1000,
         
         })
-            
-            
+
+        //Autocompletar
+        const ac = document.querySelector('.autocomplete');
+        M.Autocomplete.init(ac, {
+          data: {
+            "Esto se autocompleta": null,
+            "Buscar": null,
+            "Ejemplo": null,
+          }
+        })
+         //Ir hacia arriba   
+        $(document).ready(function(){
+
+          $('.subir').click(function(){
+             $('body, html').animate({
+               scrollTop: '0px'
+             }, 250);
+          });
+        });
             
         </script>
         

@@ -4,7 +4,7 @@
 }
 
   img.img1 {
-    max-height: 1200px;
+    max-height: 1000px;
   }
   img.img2 {
     max-width: 400px;
@@ -15,8 +15,10 @@
   }
   .texto {
     max-width: 500px;
-    margin:20px auto;
-    text-align: justify;
+    margin:100px auto;
+    text-align: left;
+    float: left;
+    width: 50%;
   }
 
   .subir {
@@ -30,4 +32,6 @@
     bottom:20px;
     right: 20px;
   }
+
+ 
   
