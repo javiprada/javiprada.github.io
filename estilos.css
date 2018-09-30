@@ -13,12 +13,18 @@
     inline-size: 20px;
   }
 
-  .texto {
-    max-width: 500px;
-    margin:50px auto;
-    text-align: center;
-    float: left;
-    width: 20%;
+  #columna1 {
+    width: 600px;
+    color: #fff;
+    font: 100 arial;
+    margin-left: 20px;
+  }
+
+  #columna2 {
+    width: 600px;
+    color: #fff;
+    font: 100 arial;
+    margin-left: 40px;
   }
 
   .subir {
