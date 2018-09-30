@@ -37,8 +37,12 @@
     background-image: url(https://raw.githubusercontent.com/javiprada/javiprada.github.io/master/img/F0B.jpg);
   }
  
-  div.Tags {
-    background-color: #FE2E2E;
+  h2 {
+    color: #fff; 
+  }
+
+  h4 {
+   color: #fff;
   }
 
   
