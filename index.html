@@ -95,6 +95,13 @@
                 </a> 
              </div>
            </div>
+
+           <div class="container">
+             <div id="galeria">
+              <img src="https://raw.githubusercontent.com/javiprada/Hitos-de-disenio/master/Hito%201.png">
+              <img src="https://raw.githubusercontent.com/javiprada/Hitos-de-disenio/master/Hito%202.jpeg">
+            </div>
+           </div>
           
  
 
@@ -116,6 +123,14 @@
              $('body, html').animate({
                scrollTop: '0px'
              }, 250);
+
+             $(window).scroll(function(){
+               if( $(this).scrollTop() > 0 ){
+                 $('.ir-arriba').slideDown(250);
+               } else {
+                 $('.ir-arriba').slideUp(250);
+               }
+             })
           });
         });
             

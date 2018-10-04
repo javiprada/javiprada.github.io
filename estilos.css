@@ -51,5 +51,10 @@
    color: #fff;
   }
 
+  #galeria {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
   
   
