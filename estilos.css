@@ -41,6 +41,7 @@
 
   body {
     background-image: url(https://raw.githubusercontent.com/javiprada/javiprada.github.io/master/img/F0B.jpg);
+    
   }
  
   h2 {
@@ -52,9 +53,13 @@
   }
 
   #galeria {
-    max-width: 400px;
-    max-height: 400px;
+    height: 30px;
   }
-
   
+  article {
+    width: 60%;
+    height: 83px;
+    border-radius: 60px;
+    float: left;
+  }
   
