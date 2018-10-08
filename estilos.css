@@ -20,6 +20,7 @@
 
   .navegador {
     background-color: #bf0000;
+    text-align: left;
   }
 
   #home {
@@ -50,15 +51,25 @@
     color: #fff; 
   }
 
+  h3 {
+    text-align: center;
+  }
+
+  h4 {
+    color: #fff;
+    text-align: left;
+   }
+
+   h5 {
+     text-align: left;
+   }
+
   .estrellas {
     background-color: #7f0000;
     text-align: center;
 
   }
 
-  h4 {
-   color: #fff;
-  }
 
   #galeria {
     color: #fff;
