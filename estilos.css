@@ -70,9 +70,10 @@
 
   }
 
-
   #galeria {
     color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   article {
@@ -80,6 +81,10 @@
     height: 83px;
     border-radius: 60px;
     float: left;
+  }
+
+  #musica {
+    background-color: #7f0000;
   }
  /*Inicio codepen redes sociales*/
   .social-media {
